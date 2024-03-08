@@ -1,5 +1,6 @@
 body {
   background-color: #f4f4f4;
+  color: #333;
   font-family: Poppins, sans-serif;
 }
 
@@ -20,13 +21,12 @@ hr {
 }
 
 .header {
-    color: #333;
     padding: 25px 0;
 }
 
 .header h1 {
-    font-size: 72px;
-    margin: 0;
+  font-size: 72px;
+  margin: 0;
 }
 
 .header p {
@@ -34,18 +34,22 @@ hr {
     margin: 0;
 }
 
-.links,
-.content {
-  border-radius: 25px;
-  border: solid #1E55A8 1px;
+.links {
+  text-align: center;
 }
 
-.links {
-  margin: 0 33.3%;
+.links ul {
+  display: inline-block;
+  text-align: left;
 }
 
 .content {
   margin: 0 25%;
+  padding: 0 25px;
+}
+
+.content h2 {
+  margin: 0;
 }
 
 .align-center {
