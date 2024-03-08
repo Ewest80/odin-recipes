@@ -1,0 +1,53 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Poppins, sans-serif;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4891ff;
+}
+
+hr {
+  height: 5px;
+  border: none;
+  width: 75%;
+  background: linear-gradient(to right, transparent, #333, transparent);
+}
+
+.header {
+    color: #333;
+    padding: 25px 0;
+}
+
+.header h1 {
+    font-size: 72px;
+    margin: 0;
+}
+
+.header p {
+    font-size: 32px;
+    margin: 0;
+}
+
+.links,
+.content {
+  border-radius: 25px;
+  border: solid #1E55A8 1px;
+}
+
+.links {
+  margin: 0 33.3%;
+}
+
+.content {
+  margin: 0 25%;
+}
+
+.align-center {
+  text-align: center;
+}
