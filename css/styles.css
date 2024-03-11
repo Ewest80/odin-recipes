@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #f4f4f4;
   color: #333;
@@ -9,48 +15,95 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #4891ff;
+.img {
+  max-width: 100%;
 }
 
-hr {
-  height: 5px;
-  border: none;
-  width: 75%;
-  background: linear-gradient(to right, transparent, #333, transparent);
+a:hover {
+  color: #039319;
 }
+
+/** Header Classes **/
 
 .header {
-    padding: 25px 0;
+  padding: 25px 0;
+  position: relative;
 }
 
-.header h1 {
+.header .title-container {
+  position: absolute;
+  background-color: rgba(3, 147, 25, 0.7);
+  padding: 10px;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10%;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.header .title {
   font-size: 72px;
-  margin: 0;
 }
 
-.header p {
-    font-size: 32px;
-    margin: 0;
+.header .subtitle {
+  font-size: 32px;
+  margin-top: -10px;
 }
 
-.links {
+/** Trending Classes **/
+
+.trending {
+  padding: 0 150px;
+}
+
+.trending h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.trending ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 50px;
+  font-size: 24px;
+  background-color: #039319;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.trending ul li a {
+  color: #fff;
+}
+
+.trending ul li:hover {
+  opacity: 0.8;
+}
+
+/** Recipe Classes **/
+
+.recipe {
+  margin-bottom: 50px;
+}
+
+.recipe .recipe-desc,
+.recipe .recipe-ingredients {
+  margin-bottom: 30px;
+}
+
+/** Utility Classes **/
+
+.container {
+  margin: 0 auto;
   text-align: center;
 }
 
-.links ul {
-  display: inline-block;
-  text-align: left;
+.container-sm {
+  max-width: 40%;
+  margin: 0 auto;
 }
 
-.content {
-  margin: 0 25%;
-  padding: 0 25px;
-}
-
-.content h2 {
-  margin: 0;
-}
+/** Text Classes **/
 
 .align-center {
   text-align: center;
